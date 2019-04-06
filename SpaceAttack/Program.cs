@@ -16,7 +16,7 @@ namespace SpaceAttack
 
         static void Main(string[] args)
         {
-            Console.Write("Enter the Space Creature's Health: ");
+            Console.Write("Enter the Space Creature's Health:- ");
             int setCreature_Health = Convert.ToInt32(Console.ReadLine());
             if (setCreature_Health <= 0)
             {
